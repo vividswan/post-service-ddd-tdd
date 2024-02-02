@@ -3,7 +3,7 @@ package com.vividswan.postservice.module.user.domain;
 import com.vividswan.postservice.common.domain.DomainEntity;
 
 class UserProps {
-	private String nickname;
+	private Nickname nickname;
 	private String email;
 	private String password;
 
