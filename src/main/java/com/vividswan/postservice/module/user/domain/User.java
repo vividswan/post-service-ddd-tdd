@@ -5,7 +5,7 @@ import com.vividswan.postservice.common.domain.DomainEntity;
 class UserProps {
 	private Nickname nickname;
 	private UserEmail email;
-	private String password;
+	private Password password;
 
 }
 
