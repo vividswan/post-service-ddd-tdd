@@ -5,7 +5,7 @@ import java.time.LocalDateTime;
 import com.vividswan.postservice.common.domain.DomainEntity;
 
 class PostProps {
-	private String title;
+	private Title title;
 	private Long userId;
 	private String contents;
 	private LocalDateTime createdAt;
