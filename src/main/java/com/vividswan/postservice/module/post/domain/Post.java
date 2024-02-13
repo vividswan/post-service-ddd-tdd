@@ -7,7 +7,7 @@ import com.vividswan.postservice.common.domain.DomainEntity;
 class PostProps {
 	private Title title;
 	private Long userId;
-	private String contents;
+	private Contents contents;
 	private LocalDateTime createdAt;
 	private LocalDateTime updatedAt;
 }
