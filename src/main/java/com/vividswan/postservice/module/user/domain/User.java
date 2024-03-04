@@ -2,13 +2,15 @@ package com.vividswan.postservice.module.user.domain;
 
 import com.vividswan.postservice.common.domain.DomainEntity;
 
+import lombok.Builder;
 import lombok.Getter;
 
 public class User extends DomainEntity<User.UserProps> {
-	public User(Long id, UserProps props) {
+	public User(String id, UserProps props) {
 		super(id, props);
 	}
 
+	@Builder
 	@Getter
 	public static class UserProps {
 		private Nickname nickname;
