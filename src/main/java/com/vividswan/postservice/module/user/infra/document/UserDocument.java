@@ -1,8 +1,12 @@
 package com.vividswan.postservice.module.user.infra.document;
 
+import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import com.vividswan.postservice.module.user.domain.Nickname;
+import com.vividswan.postservice.module.user.domain.Password;
 import com.vividswan.postservice.module.user.domain.User;
+import com.vividswan.postservice.module.user.domain.UserEmail;
 
 import lombok.Builder;
 import lombok.Getter;
@@ -11,6 +15,8 @@ import lombok.Getter;
 @Getter
 @Document(collation = "user")
 public class UserDocument {
+	@Id
+	private String id;
 	private String nickname;
 	private String email;
 	private String password;
@@ -22,5 +28,14 @@ public class UserDocument {
 			.email(props.getEmail().getValue())
 			.password(props.getPassword().getValue())
 			.build();
+	}
+
+	public User toDomain() {
+		User.UserProps userProps = User.UserProps.builder()
+			.nickname(Nickname.of(this.getNickname()))
+			.email(UserEmail.of(this.getEmail()))
+			.password(Password.of(this.getPassword()))
+			.build();
+		return new User(this.id, userProps);
 	}
 }
