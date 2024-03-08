@@ -6,6 +6,6 @@ import lombok.Data;
 @Builder
 @Data
 public class CreateUserRes {
-	private Long userId;
+	private String userId;
 	private String nickname;
 }
