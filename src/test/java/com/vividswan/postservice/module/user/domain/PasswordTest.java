@@ -5,6 +5,8 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+import com.vividswan.postservice.domain.user.Password;
+
 @DisplayName("비밀번호 검증 테스트")
 class PasswordTest {
 

@@ -1,12 +1,12 @@
-package com.vividswan.postservice.module.user.infra.document;
+package com.vividswan.postservice.infra.user.document;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import com.vividswan.postservice.module.user.domain.Nickname;
-import com.vividswan.postservice.module.user.domain.Password;
-import com.vividswan.postservice.module.user.domain.User;
-import com.vividswan.postservice.module.user.domain.UserEmail;
+import com.vividswan.postservice.domain.user.Nickname;
+import com.vividswan.postservice.domain.user.Password;
+import com.vividswan.postservice.domain.user.User;
+import com.vividswan.postservice.domain.user.UserEmail;
 
 import lombok.Builder;
 import lombok.Getter;

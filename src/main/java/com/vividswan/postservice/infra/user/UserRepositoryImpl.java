@@ -1,9 +1,9 @@
-package com.vividswan.postservice.module.user.infra;
+package com.vividswan.postservice.infra.user;
 
 import org.springframework.stereotype.Repository;
 
-import com.vividswan.postservice.module.user.domain.User;
-import com.vividswan.postservice.module.user.infra.document.UserDocument;
+import com.vividswan.postservice.domain.user.User;
+import com.vividswan.postservice.infra.user.document.UserDocument;
 
 import lombok.RequiredArgsConstructor;
 

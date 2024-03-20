@@ -1,4 +1,4 @@
-package com.vividswan.postservice.module.user.domain;
+package com.vividswan.postservice.domain.user;
 
 import com.vividswan.postservice.common.domain.DomainEntity;
 

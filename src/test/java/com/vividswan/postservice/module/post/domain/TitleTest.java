@@ -5,6 +5,8 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+import com.vividswan.postservice.domain.post.Title;
+
 @DisplayName("제목 검증 테스트")
 class TitleTest {
 

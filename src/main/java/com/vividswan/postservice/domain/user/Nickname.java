@@ -1,6 +1,6 @@
-package com.vividswan.postservice.module.user.domain;
+package com.vividswan.postservice.domain.user;
 
-import static com.vividswan.postservice.module.user.domain.Nickname.NicknameValidationError.*;
+import static com.vividswan.postservice.domain.user.Nickname.NicknameValidationError.*;
 
 import lombok.Getter;
 

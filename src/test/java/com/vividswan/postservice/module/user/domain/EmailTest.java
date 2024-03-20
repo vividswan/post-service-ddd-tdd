@@ -5,6 +5,8 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+import com.vividswan.postservice.domain.user.UserEmail;
+
 @DisplayName("이메일 테스트")
 class EmailTest {
 

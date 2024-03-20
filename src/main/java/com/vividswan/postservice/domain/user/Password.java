@@ -1,6 +1,6 @@
-package com.vividswan.postservice.module.user.domain;
+package com.vividswan.postservice.domain.user;
 
-import static com.vividswan.postservice.module.user.domain.Password.PasswordValidationError.*;
+import static com.vividswan.postservice.domain.user.Password.PasswordValidationError.*;
 
 import lombok.Getter;
 

@@ -1,4 +1,4 @@
-package com.vividswan.postservice.module.post.domain;
+package com.vividswan.postservice.domain.post;
 
 import lombok.Getter;
 

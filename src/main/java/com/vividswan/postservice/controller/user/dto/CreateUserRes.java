@@ -1,4 +1,4 @@
-package com.vividswan.postservice.module.user.dto;
+package com.vividswan.postservice.controller.user.dto;
 
 import lombok.Builder;
 import lombok.Data;
